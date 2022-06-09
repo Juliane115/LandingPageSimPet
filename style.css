@@ -18,7 +18,7 @@ body {
 
 main{
     min-width: 320px;
-    max-width: auto;
+    max-width: 1200px;
 }
 
 .cabecalho {
@@ -28,7 +28,7 @@ main{
     justify-content: space-around;
     padding: 24px;
     min-width: 320px;
-    max-width: auto;
+    max-width: 1200px;
 }
 
 .logo {
@@ -176,7 +176,7 @@ main{
 .content-four-image-1{
     display: flex;
     flex-direction: row;
-    gap: 100px;
+    gap: 50px;
     margin-bottom: 48px;
 }
 
