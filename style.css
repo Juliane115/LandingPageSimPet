@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -139,6 +143,7 @@ body {
     font-weight: 300;
     font-size: 18px;
     color: #FFF2E7;
+    margin-bottom: 35px;
 }
 
 .rodape{
@@ -150,4 +155,90 @@ body {
     height: 120px;
     display: block;
     margin: 0 auto;
+}
+
+.content-four-1{
+    border-top: 0.4px solid #FFF2E7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.content-four-image-1{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-bottom: 48px;
+}
+
+.content-four-image{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.content-items-four-1{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.content-four-title{
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2E7;
+    margin-left: 40px;
+    margin-bottom: 16px;
+}
+
+.content-four-paragraph{
+    font-family: 'Sarala', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+    margin-left: 40px;
+    color: #FFF2E7;
+}
+
+.content-four-2{
+    border-top: 0.4px solid #FFF2E7;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content-items-four-2{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.content-four-3 {
+    border-top: 0.4px solid #FFF2E7;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content-items-four-3{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.content-four-4 {
+    border-top: 0.4px solid #FFF2E7;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
