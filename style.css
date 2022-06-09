@@ -16,12 +16,19 @@ body {
     background: linear-gradient(68.15deg, #00FFA3 16.62%, #39404B 85.61%);
 }
 
+main{
+    min-width: 320px;
+    max-width: auto;
+}
+
 .cabecalho {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     padding: 24px;
+    min-width: 320px;
+    max-width: auto;
 }
 
 .logo {
