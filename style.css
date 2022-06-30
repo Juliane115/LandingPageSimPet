@@ -14,6 +14,7 @@ html{
 body {
     font-size: 100%;
     background: linear-gradient(68.15deg, #00FFA3 16.62%, #39404B 85.61%);
+    margin: 15px;
 }
 
 .cabecalho {
